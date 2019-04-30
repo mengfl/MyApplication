@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:background="@color/color_0a2343"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+   <include
+       layout="@layout/layout_backtitle"
+       />
+
+   <com.facebook.drawee.view.SimpleDraweeView
+       android:id="@+id/simpleDraweeView"
+       android:layout_width="258dp"
+       android:layout_height="358dp"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="@dimen/space_25" />
+
+   <TextView
+       android:gravity="center"
+       android:id="@+id/act_uploadpic_tv"
+       android:lineSpacingExtra="2dp"
+       android:layout_marginTop="@dimen/space_20"
+       style="@style/txt_fe_12"
+       android:text="报警实验照片，拍摄报警实验照片中显示车辆报警状态"
+       android:layout_gravity="center_horizontal"
+       android:layout_width="258dp"
+       android:layout_height="wrap_content" />
+</LinearLayout>

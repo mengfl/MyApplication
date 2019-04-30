@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/color_0a2343"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/layout_backtitle" />
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/space_40"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="@dimen/space_25"
+        android:layout_marginRight="@dimen/space_25"
+        android:clipChildren="false">
+
+        <com.example.administrator.myapplication.common.widget.CycleViewPager
+            android:id="@+id/act_uploadmore_viewpager"
+            android:layout_width="250dp"
+            android:layout_height="400dp"
+            android:layout_centerInParent="true"
+            android:clipChildren="false" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/space_25"
+        android:layout_marginLeft="@dimen/space_25"
+        android:layout_marginRight="@dimen/space_25"
+        android:text="拍摄整车图片，角度为左前方45度"
+        style="@style/txt_fe_12"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/act_uploadmore_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

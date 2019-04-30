@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_0a2343"
+    android:orientation="vertical"
+   >
+   <include
+       layout="@layout/layout_backtitle"
+       />
+
+    <RadioGroup
+        android:layout_marginTop="@dimen/space_10"
+        android:id="@+id/act_choosetype_rg"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/height_1dp">
+        <RadioButton
+            android:id="@+id/act_choosetype_rb_not_test"
+            style="@style/togglebutton_left"
+            android:text="待测试" />
+        <RadioButton
+            android:id="@+id/act_choosetype_rb_tested"
+            style="@style/togglebutton_right"
+            android:text="测试中" />
+    </RadioGroup>
+    <FrameLayout
+        android:layout_marginTop="@dimen/space_5"
+        android:id="@+id/act_choosetype_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

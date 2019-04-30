@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_tipsdialog"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:paddingTop="@dimen/space_15"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/dialog_tips_img"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/dialog_tips_tv_title"
+            android:layout_marginLeft="@dimen/space_5"
+            style="@style/txt_33_16"
+            android:layout_gravity="center_vertical"
+            android:text="测试结果"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="@dimen/space_10"
+        android:id="@+id/dialog_tips_tv_content"
+
+        style="@style/txt_33_14"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="杀菌灯拉科技"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="@dimen/space_25"
+        android:id="@+id/dialog_tips_tv_ok"
+        android:paddingTop="@dimen/space_10"
+        android:paddingBottom="@dimen/space_10"
+        style="@style/txt_fe_16"
+        android:background="@drawable/shape_tv_tipsdialog"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="确   定"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/color_0a2343"
+    android:paddingLeft="@dimen/space_10"
+    android:paddingRight="@dimen/space_10"
+    android:paddingTop="@dimen/space_10"
+    android:paddingBottom="@dimen/space_10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:gravity="center_vertical"
+        android:button="@null"
+        android:background="@drawable/sel_cb_cartype"
+        android:enabled="false"
+        android:clickable="false"
+        android:id="@+id/choosetype_cb"
+        android:layout_gravity="center_vertical"
+        android:layout_width="16dp"
+        android:layout_height="16dp" />
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/space_10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/choosetype_tv_name"
+            android:text="春电动城市客车"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_fe"
+            android:textSize="@dimen/font_size_14" />
+
+        <TextView
+            android:id="@+id/choosetype_tv_date"
+            android:layout_marginTop="@dimen/space_2"
+            android:text="检测时间：2017-02-06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_939699"
+            android:textSize="@dimen/font_size_12" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:id="@+id/backtitle_rl_whole"
+    android:background="@color/color_0a2343"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:id="@+id/backtitle_left_rl"
+        android:layout_alignParentLeft="true"
+        android:padding="@dimen/space_10"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/backtitle_left_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_back"
+             />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:id="@+id/backtitle_right_rl"
+        android:padding="@dimen/space_10"
+        android:layout_alignParentRight="true"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/icon_drawer"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:id="@+id/backtitle_right_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:textSize="@dimen/font_size_15"
+             android:textColor="@color/color_fe"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:id="@+id/backtitle_right_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:paddingBottom="@dimen/space_5"
+        android:paddingTop="@dimen/space_5"
+        android:layout_toLeftOf="@id/backtitle_right_rl"
+        android:layout_toRightOf="@id/backtitle_left_rl"
+        android:textSize="@dimen/font_size_18"
+       android:textColor="@color/color_fe"
+        android:text="我是标题  "
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:id="@+id/backtitle_center_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:text="奥术大师按时阿萨德啊啊"
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:textSize="@dimen/font_size_20"
+         android:textColor="@color/color_black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center"
+            android:text="取消"
+            android:textColor="@android:color/white"
+            android:background="@color/color_0a2343"/>
+
+        <Button
+            android:id="@+id/btn_sure"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="7dp"
+            android:text="确定"
+            android:textColor="@color/color_a2f1ff"
+            android:background="@color/color_0a2343"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include
+        layout="@layout/layout_backtitle"
+        />
+   <com.example.administrator.myapplication.wigdet.TestStepView
+android:gravity="center"
+       android:background="@color/color_193856"
+       android:paddingRight="@dimen/space_10"
+       android:paddingLeft="@dimen/space_10"
+       android:id="@+id/act_testing_teststepview"
+       android:layout_width="match_parent"
+       android:layout_height="115dp"/>
+
+    <com.example.administrator.myapplication.wigdet.CarAttriView
+        android:id="@+id/act_testing_carattriview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/act_testing_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

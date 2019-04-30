@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_0a2343"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1px"
+                android:background="@color/color_475567" />
+
+            <TextView
+                style="@style/txt_a2faff_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/height_1px"
+                android:background="@color/color_0a2343"
+                android:padding="@dimen/space_10"
+                android:text="综合阶段" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1px"
+                android:background="@color/color_475567" />
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:id="@+id/fra_directly_ll_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/height_1px"
+                android:background="@color/color_0a2343"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_10">
+
+                <TextView
+                    android:id="@+id/fra_directly_tv_login"
+                    style="@style/txt_fe_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="车辆登入登出" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_10"
+                    android:src="@drawable/icon_inout1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_10"
+                    android:src="@drawable/icon_inout2" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_10"
+                    android:src="@drawable/icon_inout3" />
+
+                <TextView
+                    android:id="@+id/fra_directly_tv_loginstatus"
+                    style="@style/txt_fe_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_10"
+                    android:text="未测试" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_arrow_right" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1px"
+                android:background="@color/color_475567" />
+
+            <LinearLayout  android:gravity="center_vertical"
+                android:id="@+id/fra_directly_ll_police"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/height_1px"
+                android:background="@color/color_0a2343"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_10">
+
+                <TextView
+                    android:id="@+id/fra_directly_tv_police"
+                    style="@style/txt_fe_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/height_1px"
+                    android:layout_weight="1"
+                    android:background="@color/color_0a2343"
+                    android:gravity="center_vertical"
+                    android:text="报警测试" />
+
+                <TextView
+                    android:id="@+id/fra_directly_tv_policestatus"
+                    style="@style/txt_fe_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_10"
+                    android:text="未测试" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1px"
+                android:background="@color/color_475567" />
+
+            <LinearLayout  android:gravity="center_vertical"
+                android:id="@+id/fra_directly_ll_supply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/height_1px"
+                android:background="@color/color_0a2343"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_10">
+
+                <TextView
+                    android:id="@+id/fra_directly_tv_supply"
+                    style="@style/txt_fe_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/height_1px"
+                    android:layout_weight="1"
+                    android:background="@color/color_0a2343"
+                    android:gravity="center_vertical"
+                    android:text="补发测试" />
+
+                <TextView
+                    android:id="@+id/fra_directly_tv_supplystatus"
+                    style="@style/txt_fe_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_10"
+                    android:text="未测试" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1px"
+                android:background="@color/color_475567" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1px"
+                android:layout_marginTop="@dimen/space_10"
+                android:background="@color/color_475567" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/txt_a2faff_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/height_1px"
+                android:background="@color/color_0a2343"
+                android:padding="@dimen/space_10"
+                android:text="行驶阶段" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1px"
+
+                android:background="@color/color_475567" />
+
+
+            <LinearLayout
+                android:id="@+id/fra_directly_ll_driving"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/height_1px"
+                android:background="@color/color_0a2343"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_10">
+
+                <TextView
+                    android:id="@+id/fra_directly_tv_driving"
+                    style="@style/txt_fe_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/height_1px"
+                    android:layout_weight="1"
+                    android:background="@color/color_0a2343"
+                    android:gravity="center_vertical"
+                    android:text="行驶测试" />
+
+                <TextView
+                    android:id="@+id/fra_directly_tv_drivingstatus"
+                    style="@style/txt_fe_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_10"
+                    android:text="未测试" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1px"
+                android:background="@color/color_475567" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1px"
+                android:layout_marginTop="@dimen/space_10"
+                android:background="@color/color_475567" />
+
+            <TextView
+                style="@style/txt_a2faff_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/height_1px"
+                android:background="@color/color_0a2343"
+                android:padding="@dimen/space_10"
+                android:text="充电阶段" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1px"
+                android:background="@color/color_475567" />
+
+            <LinearLayout
+                android:id="@+id/fra_directly_ll_charging"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/height_1px"
+                android:background="@color/color_0a2343"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_10">
+
+                <TextView
+                    android:id="@+id/fra_directly_tv_charging"
+                    style="@style/txt_fe_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/height_1px"
+                    android:layout_weight="1"
+                    android:background="@color/color_0a2343"
+                    android:gravity="center_vertical"
+                    android:text="充电测试" />
+
+                <TextView
+                    android:id="@+id/fra_directly_tv_chargingstatus"
+                    style="@style/txt_fe_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_10"
+                    android:text="未测试" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_1px"
+                android:background="@color/color_475567" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

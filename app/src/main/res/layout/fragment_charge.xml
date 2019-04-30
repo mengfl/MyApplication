@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/color_0a2343"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/fra_police_ll"
+        android:padding="@dimen/space_10"
+        android:layout_marginTop="@dimen/space_25"
+        android:layout_marginRight="@dimen/space_25"
+        android:layout_marginLeft="@dimen/space_25"
+        android:background="@drawable/shape_button_white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            style="@style/txt_a2faff_16"
+            android:text="@string/charge_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:lineSpacingExtra="2dp"
+            android:layout_marginTop="@dimen/space_5"
+            style="@style/txt_a2faff_14"
+            android:text="@string/charge_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="@dimen/space_5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/txt_red_14"
+                android:text="注："
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/txt_fe_14"
+                android:text="@string/charge_content_notice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/fra_police_tv_time"
+            android:layout_marginTop="@dimen/space_5"
+            style="@style/txt_fe_12"
+            android:gravity="right"
+            android:text="01:00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@id/fra_police_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+
+            android:paddingTop="@dimen/space_2"
+            android:paddingBottom="@dimen/space_2"
+            android:background="@drawable/shape_button_main"
+            android:textColor="@color/color_black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/space_25"
+            android:text="@string/zbjx"
+            android:id="@+id/fra_police_btn_start"
+            android:layout_width="200dp"
+            android:layout_height="44dp" />
+        <TextView
+            android:visibility="gone"
+            android:drawablePadding="@dimen/space_10"
+            android:drawableTop="@drawable/icon_pic"
+            style="@style/txt_a2faff_14"
+            android:layout_marginTop="@dimen/space_25"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/fra_police_img_pic"
+            android:text="温馨提示：任选时间进行照相"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:paddingBottom="@dimen/space_10"
+        android:paddingTop="@dimen/space_10"
+        android:gravity="center"
+        style="@style/txt_a2faff_14"
+        android:id="@+id/fra_police_tv_jump"
+        android:layout_alignParentBottom="true"
+        android:text="@string/fhxzcsxm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/color_939699"
+        android:layout_above="@id/fra_police_tv_jump"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_1px"  />
+
+
+</RelativeLayout>

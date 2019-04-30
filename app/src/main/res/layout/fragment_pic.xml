@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <TextView
+
+        android:gravity="center"
+        android:id="@+id/fra_pic_tv"
+        android:background="#ff0000"
+        style="@style/txt_fe_18"
+        android:text="1111111111111111111111"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

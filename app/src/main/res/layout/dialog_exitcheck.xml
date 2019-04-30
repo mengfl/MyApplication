@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:background="@drawable/shape_tipsdialog"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:paddingBottom="@dimen/space_20"
+        android:paddingTop="@dimen/space_20"
+        android:layout_weight="1"
+        android:id="@+id/dialog_tips_tv_content"
+        style="@style/txt_33_14"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="确认返回选择测试项目吗？"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:background="@drawable/shape_tv_left_exitdialog"
+            android:layout_weight="1"
+
+            android:id="@+id/dialog_tips_tv_cancle"
+            android:paddingTop="@dimen/space_10"
+            android:paddingBottom="@dimen/space_10"
+            style="@style/txt_fe_16"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="取   消"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_marginLeft="1px"
+            android:background="@drawable/shape_tv_right_exitdialog"
+            android:layout_weight="1"
+
+            android:id="@+id/dialog_tips_tv_ok"
+            android:paddingTop="@dimen/space_10"
+            android:paddingBottom="@dimen/space_10"
+            style="@style/txt_fe_16"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="确   定"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

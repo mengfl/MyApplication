@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <!-- 应用标题-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+     <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="TipsDialog" parent="@android:style/Theme.Dialog">
+    <item name="android:background">@drawable/shape_tipsdialog</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+</style>
+
+    <style name="BottomSimpleDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+    <style name="txt_red_14">
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:textColor">@color/color_red</item>
+    </style>
+    <style name="txt_fe_18">
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:textColor">@color/color_fe</item>
+    </style>
+    <style name="txt_fe_16">
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:textColor">@color/color_fe</item>
+    </style>
+    <style name="txt_fe_14">
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:textColor">@color/color_fe</item>
+    </style>
+    <style name="txt_fe_12">
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:textColor">@color/color_fe</item>
+    </style>
+    <style name="txt_939699_12">
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:textColor">@color/color_939699</item>
+    </style>
+
+    <style name="txt_0a2343_18">
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:textColor">@color/color_0a2343</item>
+    </style>
+    <style name="txt_a2faff_16">
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:textColor">@color/color_a2f1ff</item>
+    </style>
+    <style name="txt_a2faff_14">
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:textColor">@color/color_a2f1ff</item>
+    </style>
+    <style name="txt_a2faff_12">
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:textColor">@color/color_a2f1ff</item>
+    </style>
+    <style name="txt_a2faff_10">
+        <item name="android:textSize">@dimen/font_size_10</item>
+        <item name="android:textColor">@color/color_a2f1ff</item>
+    </style>
+    <style name="txt_33_16">
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:textColor">@color/color_33</item>
+    </style>
+    <style name="txt_33_14">
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:textColor">@color/color_33</item>
+    </style>
+    <style name="txt_33_12">
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:textColor">@color/color_33</item>
+    </style>
+    <style name="sel_edittext" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/sel_edittext</item>
+    </style>
+
+    <style name="togglebutton_left">
+        <!--<item name="android:paddingRight" >@dimen/space_40</item>-->
+        <!--<item name="android:paddingLeft" >@dimen/space_40</item>-->
+         <item name="android:paddingTop" >@dimen/space_5</item>
+         <item name="android:paddingBottom" >@dimen/space_5</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/sel_togglerbutton_left</item>
+        <item name="android:textColor">@color/color_togglebutton</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="togglebutton_right">
+        <!--<item name="android:paddingRight" >@dimen/space_40</item>-->
+        <!--<item name="android:paddingLeft" >@dimen/space_40</item>-->
+        <item name="android:paddingTop" >@dimen/space_5</item>
+        <item name="android:paddingBottom" >@dimen/space_5</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/sel_togglerbutton_right</item>
+        <item name="android:textColor">@color/color_togglebutton</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>

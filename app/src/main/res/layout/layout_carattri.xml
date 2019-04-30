@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_939699"
+    android:orientation="horizontal">
+
+    <TableLayout
+        android:layout_marginBottom="@dimen/height_1px"
+        android:layout_marginTop="@dimen/height_1px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/layout_carattri_tv_status"
+                style="@style/txt_fe_12"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/color_0a2343"
+                android:gravity="center"
+                android:text="是否上线:" />
+
+            <TextView
+                android:id="@+id/layout_carattri_tv_soc"
+                android:layout_marginLeft="@dimen/height_1px"
+                style="@style/txt_fe_12"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/color_0a2343"
+                android:gravity="center"
+                android:text="SOC:" />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="@dimen/height_1px">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@color/color_0a2343"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                >
+                <TextView
+                    style="@style/txt_fe_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设备时间:" />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/layout_carattri_tv_date"
+                    style="@style/txt_fe_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/layout_carattri_tv_alarm"
+                android:layout_marginLeft="@dimen/height_1px"
+                style="@style/txt_fe_12"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/color_0a2343"
+                android:gravity="center"
+                android:text="三级报警:" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

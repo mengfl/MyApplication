@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_0a2343"
+    >
+    <include
+        layout="@layout/layout_backtitle"/>
+
+    <RadioGroup
+        android:layout_marginTop="@dimen/space_10"
+        android:id="@+id/act_record_rg"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/height_1dp">
+        <RadioButton
+            android:id="@+id/act_record_rb_directly"
+            style="@style/togglebutton_left"
+            android:text="终端直连" />
+        <RadioButton
+            android:id="@+id/act_record_rb_turn"
+            style="@style/togglebutton_right"
+            android:text="平台转发" />
+    </RadioGroup>
+    <FrameLayout
+        android:layout_marginTop="@dimen/space_5"
+        android:id="@+id/act_record_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
